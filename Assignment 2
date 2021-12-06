@@ -6,5 +6,6 @@ S = {s € H|Consistent(s, D) ^ (-3s' € H)[(s >, gs') ^ Consistent(s', D)])
 
 Version space representation theorem. Let X be an arbitrary set of instances and let H be a set of boolean-valued hypotheses defined over X. Let c : X + {O, 1) be an arbitrary target concept defined over X, and let D be an arbitrary set of training examples {(x, c(x))). For all X, H, c, and D such that S and G are well defined, 
 
+VSH,D = {h ∈ H|(∃s ∈ S)(∃g ∈ G)(g ≥g h ≥g s)}
  
 
