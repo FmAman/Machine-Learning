@@ -1,0 +1,10 @@
+The general boundary G, with respect to hypothesis space H and training data D, is the set of maximally general members of H consistent with D.  G = {g € H|Consistent(g, D) ^ (-3g' € H)[(g' >, gg) ^ Consistent(g', D)]]  
+
+Definition: The specific boundary S, with respect to hypothesis space H and training data D, is the set of minimally general (i.e., maximally specific) members of H consistent with D.  
+
+S = {s € H|Consistent(s, D) ^ (-3s' € H)[(s >, gs') ^ Consistent(s', D)]) 
+
+Version space representation theorem. Let X be an arbitrary set of instances and let H be a set of boolean-valued hypotheses defined over X. Let c : X + {O, 1) be an arbitrary target concept defined over X, and let D be an arbitrary set of training examples {(x, c(x))). For all X, H, c, and D such that S and G are well defined, 
+
+ 
+
